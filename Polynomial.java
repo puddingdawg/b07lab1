@@ -178,10 +178,10 @@ public class Polynomial {
 
     // saveToFile Method
     public void saveToFile(String myFile) throws Exception {
-        // if(coeffi == null || expo == null || this.coeffi.length != this.expo.length)
-        // {
-        // return;
-        // }
+        if(coeffi == null || expo == null || this.coeffi.length != this.expo.length)
+        {
+        return;
+        }
 
         String writeString = "";
 

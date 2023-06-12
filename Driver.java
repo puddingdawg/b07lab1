@@ -58,7 +58,7 @@ public class Driver {
         try {
             // testing Save to File
             String filepath = "/Users/rivz/b07lab1/lab2save.txt";
-            Polynomial t = new Polynomial(c2, e2);
+            Polynomial t = new Polynomial(c1, e1);
             t.saveToFile(filepath);
         } catch (Exception e) {
             System.out.println(e.getMessage());
